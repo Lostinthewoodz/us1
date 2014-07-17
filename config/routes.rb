@@ -1,6 +1,29 @@
 Us1::Application.routes.draw do
+  
+  get "virtuoso_pages/luxury"
+  get "corporate_pages/jets"
+  get "corporate_pages/booking"
+  get "getthere_pages/about"
+  get "getthere_pages/login"
+
   root  'static_pages#home'
   match '/about', to:"static_pages#about", via: 'get'
+  
+  match "/travel/tour", to: "travel_pages#tour", via: 'get'
+  match "/travel/cruise", to: "travel_pages#cruise", via: 'get'
+  match "/travel/rail", to: "travel_pages#rail", via: 'get'
+  match "/travel/car", to: "travel_pages#car", via: 'get'
+
+  match "/resources/agents", to: "resource_pages#agents", via: 'get'
+  match "/resources/travelers", to: "resource_pages#travelers", via: 'get'
+  
+  match "/getthere/about", to: "getthere_pages#about", via: 'get'
+  match "/getthere/login", to: "getthere_pages#login", via: 'get'
+
+  match "/corporate/privatejets", to: "corporate_pages#jets", via: 'get'
+  match "/corporate/onlinebooking", to: "corporate_pages#booking", via: 'get'
+
+  match "/virtuoso/luxury", to: "virtuoso_pages#luxury", via: 'get'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

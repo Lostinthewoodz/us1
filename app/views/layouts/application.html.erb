@@ -56,39 +56,39 @@
                     <li class = "dropdown">
                         <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Travel <b class = "caret"></b></a>
                         <ul class = "dropdown-menu">
-                                <li class = "doobs"><a href = "#">Tour Packages</a></li>
-                                <li><a href = "#">Cruise Lines</a></li>
-                                <li><a href = "#">Rail</a></li>
-                                <li><a href = "#">Car Rentals</a></li>
+                                <li><%= link_to "Tour Packages", travel_tour_path%></li>
+                                <li><%= link_to "Cruise Lines", travel_cruise_path%></li>
+                                <li><%= link_to "Rail", travel_rail_path%></li>
+                                <li><%= link_to "Car Rentals", travel_car_path%></li>
                         </ul>
                         
                     </li>
                     <li class = "dropdown">
                         <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Resources <b class = "caret"></b></a>
                         <ul class = "dropdown-menu">
-                                <li><a href = "#">Agents</a></li>
-                                <li><a href = "#">Travelers</a></li>
+                                <li><%= link_to "Agents", resources_agents_path%></li>
+                                <li><%= link_to "Travelers", resources_travelers_path%></li>
                         </ul>
                         
                     </li>
                     <li class = "dropdown">
                         <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Getthere <b class = "caret"></b></a>
                         <ul class = "dropdown-menu">
-                                <li><a href = "#">About GT</a></li>
-                                <li><a href = "#">Login</a></li>
+                                <li><%= link_to "About GT", getthere_about_path%></li>
+                                <li><%= link_to "Login", getthere_login_path%></li>
                         </ul>
                     </li>
                     <li class = "dropdown">
                         <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Corporate <b class = "caret"></b></a>
                         <ul class = "dropdown-menu">
-                                <li><a href = "#">Private Jets</a></li>
-                                <li><a href = "#">Online Booking</a></li>
+                                <li><%= link_to "Private Jets", corporate_privatejets_path%></li>
+                                <li><%= link_to "Online Booking", corporate_onlinebooking_path%></li>
                         </ul>
                     </li>
                     <li class = "dropdown">
                         <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Virtuoso <b class = "caret"></b></a>
                         <ul class = "dropdown-menu">
-                                <li><a href = "#">Luxury Specialist Program</a></li>
+                                <li><%= link_to "Luxury Specialist Program", virtuoso_luxury_path%></li>
                         </ul>
                     </li>
                     
