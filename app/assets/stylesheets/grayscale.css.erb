@@ -50,7 +50,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    color: yellow;
 }
 
 .light {
@@ -105,12 +105,26 @@ a:focus {
     
 }
 
-
-.dropdown:hover {
-    background-color: yellow;
+.dropdown-toggle:hover, 
+.dropdown-toggle:active{
+    background-color: yellow !important;  /* Controls attributes of the dropdown menu main tabs*/
+    color: #000 !important;
 }
 
-.buttontext {
+.dropdown-menu{
+    background-color: #000;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+div ul li ul li a{
+    color: #fff;
 }
 
 .intro {
