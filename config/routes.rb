@@ -1,10 +1,4 @@
 Us1::Application.routes.draw do
-  
-  get "virtuoso_pages/luxury"
-  get "corporate_pages/jets"
-  get "corporate_pages/booking"
-  get "getthere_pages/about"
-  get "getthere_pages/login"
 
   root  'static_pages#home'
   match '/about', to:"static_pages#about", via: 'get'
@@ -24,6 +18,7 @@ Us1::Application.routes.draw do
   match "/corporate/onlinebooking", to: "corporate_pages#booking", via: 'get'
 
   match "/virtuoso/luxury", to: "virtuoso_pages#luxury", via: 'get'
+  get "/getthere/portal" => redirect("http://wcp.getthere.net/us1travel")
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
