@@ -36657,3 +36657,983 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 11:53:05
 
 
 Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 11:53:05 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRememberTokenToUsers (20140718215013)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "remember_token" varchar(255)[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_users_on_remember_token" ON "users" ("remember_token")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140718215013"]]
+  [1m[35m (6.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-18 15:15:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (738.2ms)
+Completed 200 OK in 772ms (Views: 771.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/earth-copycopy1.jpg" for 127.0.0.1 at 2014-07-18 15:15:14 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:15:15 -0700
+
+
+Started GET "/resources/agents" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+Processing by ResourcePagesController#agents as HTML
+  Rendered resource_pages/agents.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resources/agents" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+Processing by ResourcePagesController#agents as HTML
+  Rendered resource_pages/agents.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:16 -0700
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2014-07-18 15:15:17 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (132.0ms)
+Completed 200 OK in 138ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2014-07-18 15:15:17 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:18 -0700
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-07-18 15:15:20 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahs9Mv0cEySC5Wrrvp1sSnb+lb1oqhfhJlDMBfshOYM=", "session"=>{"email"=>"wc9825@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'wc9825@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["remember_token", "727e11a09eabda183d0abd822ca234733c3448f6"], ["updated_at", Fri, 18 Jul 2014 22:15:20 UTC +00:00]]
+  [1m[36m (5.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/users/1
+Completed 302 Found in 169ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-18 15:15:20 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:15:21 -0700
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-07-18 15:15:22 -0700
+Processing by SessionsController#destroy as HTML
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:166:in `handle_unverified_request'
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:173:in `handle_unverified_request'
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:180:in `verify_authenticity_token'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:377:in `_run__1737956719623819061__process_action__callbacks'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.0.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.8) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.8) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.8) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.8) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.8) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:373:in `_run__1967093815508178252__call__callbacks'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.8ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-07-18 15:16:07 -0700
+Processing by SessionsController#destroy as HTML
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:166:in `handle_unverified_request'
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:173:in `handle_unverified_request'
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:180:in `verify_authenticity_token'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:377:in `_run__1737956719623819061__process_action__callbacks'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.0.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.8) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.8) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.8) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.8) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.8) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:373:in `_run__1967093815508178252__call__callbacks'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-07-18 15:16:27 -0700
+Processing by SessionsController#destroy as HTML
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:166:in `handle_unverified_request'
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:173:in `handle_unverified_request'
+  actionpack (4.0.8) lib/action_controller/metal/request_forgery_protection.rb:180:in `verify_authenticity_token'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:377:in `_run__1737956719623819061__process_action__callbacks'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.0.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.8) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.8) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.8) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.8) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.8) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.8) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:373:in `_run__1967093815508178252__call__callbacks'
+  activesupport (4.0.8) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/WoodyChung/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/WoodyChung/.rvm/gems/ruby-2.0.0-p481@railstutorial_rails_4_0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 26ms (Views: 12.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:08 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:17:09 -0700
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ahs9Mv0cEySC5Wrrvp1sSnb+lb1oqhfhJlDMBfshOYM="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '727e11a09eabda183d0abd822ca234733c3448f6' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["remember_token", "6978afbfa4e68caee174d43c4f97f2975a56415d"], ["updated_at", Fri, 18 Jul 2014 22:17:10 UTC +00:00]]
+  [1m[36m (6.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 12ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/assets/earth-copycopy1.jpg" for 127.0.0.1 at 2014-07-18 15:17:10 -0700
+
+
+Started GET "/getthere/about" for 127.0.0.1 at 2014-07-18 15:17:12 -0700
+Processing by GettherePagesController#about as HTML
+  Rendered getthere_pages/about.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/getthere/about" for 127.0.0.1 at 2014-07-18 15:17:12 -0700
+Processing by GettherePagesController#about as HTML
+  Rendered getthere_pages/about.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:12 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:12 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:17:12 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:12 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:17:12 -0700
+
+
+Started GET "/resources/agents" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+Processing by ResourcePagesController#agents as HTML
+  Rendered resource_pages/agents.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:14 -0700
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:15 -0700
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahs9Mv0cEySC5Wrrvp1sSnb+lb1oqhfhJlDMBfshOYM=", "session"=>{"email"=>"wc9825@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'wc9825@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["remember_token", "ef8cadc7b7838426b5d827510cf5ec6cd8d77e25"], ["updated_at", Fri, 18 Jul 2014 22:17:18 UTC +00:00]]
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/users/1
+Completed 302 Found in 84ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:17:18 -0700
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ahs9Mv0cEySC5Wrrvp1sSnb+lb1oqhfhJlDMBfshOYM="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ef8cadc7b7838426b5d827510cf5ec6cd8d77e25' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["remember_token", "404b7f8c3205a7dd7228eb269dde7313c27614cd"], ["updated_at", Fri, 18 Jul 2014 22:17:20 UTC +00:00]]
+  [1m[35m (5.6ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 9ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/grayscale.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
+
+
+Started GET "/assets/earth-copycopy1.jpg" for 127.0.0.1 at 2014-07-18 15:17:20 -0700
