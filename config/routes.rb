@@ -1,5 +1,7 @@
 Us1::Application.routes.draw do
 
+  
+  resources :users
   root  'static_pages#home'
   match '/about', to:"static_pages#about", via: 'get'
   
