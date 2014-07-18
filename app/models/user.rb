@@ -8,4 +8,29 @@ class User < ActiveRecord::Base
 	has_secure_password
 	validates :password, length: { minimum: 6 }
 
+	def create
+    @user = User.new(user_params)
+	    if @user.save
+	      	sign_in @user
+	      	flash[:success] = "Welcome to the Sample App!"
+	      	redirect_to @user
+	    else
+	      render 'new'
+	    end
+  	end
+
+	def User.new_remember_token
+    	SecureRandom.urlsafe_base64
+  	end
+
+  	def User.digest(token)
+    	Digest::SHA1.hexdigest(token.to_s)
+  	end
+
+  	private
+
+    	def create_remember_token
+      		self.remember_token = User.digest(User.new_remember_token)
+    	end
+
 end

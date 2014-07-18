@@ -19,6 +19,8 @@
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans|Lobster|Roboto+Slab|Ubuntu&effect=fire-animation">
+
 
     <!-- Custom Theme CSS -->
     <%= stylesheet_link_tag "grayscale", media: "all",
@@ -98,7 +100,9 @@
         </div>
         <!-- /.container -->
     </nav>
+    
 	<%= yield %>
+    <%= csrf_meta_tags %>
 	</body>
 
 </html>
