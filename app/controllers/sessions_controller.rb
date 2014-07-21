@@ -1,5 +1,9 @@
 class SessionsController < ApplicationController
 	def new
+		user = @user
+		if @user 
+			redirect_to user
+		end
 	end
 
 	def create

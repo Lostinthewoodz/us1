@@ -2,7 +2,16 @@
                                            "data-turbolinks-track" => true %>
 <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
-<h1>Users</h1>
+<h1>My Agent Page</h1>
+<%if @user.admin? %>
+	<p> Admin status: True</p>
+<%end%>
 <p><%= @user.name %>, <%= @user.email %></p>
 
+<div class = "userbuttons">
+<%if @user.admin? %>
+ <%= link_to "All Agents", users_path, class: "btn btn-large btn-primary signoutbutton"%>
+ <%= link_to "Create Agent", signup_path, class: "btn btn-large btn-primary signoutbutton"%>
+ <%end%>
  <%= link_to "Sign out", signout_path, method: "delete" , class: "btn btn-large btn-primary signoutbutton"%>
+</div>
