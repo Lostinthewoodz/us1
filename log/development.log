@@ -83064,3 +83064,2114 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 15:36:29 
 
 
 Started GET "/assets/earth-copycopy1.jpg" for 127.0.0.1 at 2014-07-21 15:36:29 -0700
+Warning. Error encountered while saving cache ec128cf9796cfbd507be97ce7990e0205715d6d1/sessions.css.scssc: can't dump anonymous class #<Class:0x007fabbf8c7c98>
+
+Warning. Error encountered while saving cache ec128cf9796cfbd507be97ce7990e0205715d6d1/users.css.scssc: can't dump anonymous class #<Class:0x007fabbf8c7c98>
+
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-21 16:07:13 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (481.5ms)
+  [1m[35mUser Load (2.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 669ms (Views: 664.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/earth-copycopy1.jpg" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:15 -0700
+
+
+Started GET "/travel/cruise" for 127.0.0.1 at 2014-07-21 16:07:16 -0700
+Processing by TravelPagesController#cruise as HTML
+  Rendered travel_pages/cruise.html.erb within layouts/application (23.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/travel/cruise" for 127.0.0.1 at 2014-07-21 16:07:16 -0700
+Processing by TravelPagesController#cruise as HTML
+  Rendered travel_pages/cruise.html.erb within layouts/application (7.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:17 -0700
+
+
+Started GET "/travel/cruise" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+Processing by TravelPagesController#cruise as HTML
+  Rendered travel_pages/cruise.html.erb within layouts/application (73.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:22 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (8.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/assets/earth-copycopy1.jpg" for 127.0.0.1 at 2014-07-21 16:07:24 -0700
+
+
+Started GET "/travel/cruise" for 127.0.0.1 at 2014-07-21 16:07:25 -0700
+Processing by TravelPagesController#cruise as HTML
+  Rendered travel_pages/cruise.html.erb within layouts/application (11.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/travel/cruise" for 127.0.0.1 at 2014-07-21 16:07:25 -0700
+Processing by TravelPagesController#cruise as HTML
+  Rendered travel_pages/cruise.html.erb within layouts/application (7.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 49ms (Views: 48.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:25 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:25 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:26 -0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:27 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 64ms (Views: 61.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:28 -0700
+
+
+Started GET "/resources/travelers" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+Processing by ResourcePagesController#travelers as HTML
+  Rendered resource_pages/travelers.html.erb within layouts/application (8.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/resources/travelers" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+Processing by ResourcePagesController#travelers as HTML
+  Rendered resource_pages/travelers.html.erb within layouts/application (6.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:31 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:32 -0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:33 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:34 -0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (119.2ms)
+Completed 200 OK in 124ms (Views: 122.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:38 -0700
+
+
+Started GET "/getthere/about" for 127.0.0.1 at 2014-07-21 16:07:39 -0700
+Processing by GettherePagesController#about as HTML
+  Rendered getthere_pages/about.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/getthere/about" for 127.0.0.1 at 2014-07-21 16:07:40 -0700
+Processing by GettherePagesController#about as HTML
+  Rendered getthere_pages/about.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:40 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:40 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:40 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:40 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:40 -0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:41 -0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (122.2ms)
+Completed 200 OK in 129ms (Views: 127.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:47 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-21 16:07:48 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (10.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (9.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/assets/earth-copycopy1.jpg" for 127.0.0.1 at 2014-07-21 16:07:49 -0700
+
+
+Started GET "/resources/travelers" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+Processing by ResourcePagesController#travelers as HTML
+  Rendered resource_pages/travelers.html.erb within layouts/application (9.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/resources/travelers" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+Processing by ResourcePagesController#travelers as HTML
+  Rendered resource_pages/travelers.html.erb within layouts/application (9.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:50 -0700
+
+
+Started GET "/travel/tour" for 127.0.0.1 at 2014-07-21 16:07:51 -0700
+Processing by TravelPagesController#tour as HTML
+  Rendered travel_pages/tour.html.erb within layouts/application (14.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/travel/tour" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+Processing by TravelPagesController#tour as HTML
+  Rendered travel_pages/tour.html.erb within layouts/application (6.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:52 -0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 63ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:07:53 -0700
+
+
+Started GET "/travel/tour" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+Processing by TravelPagesController#tour as HTML
+  Rendered travel_pages/tour.html.erb within layouts/application (133.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 139ms (Views: 138.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/travel/tour" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+Processing by TravelPagesController#tour as HTML
+  Rendered travel_pages/tour.html.erb within layouts/application (6.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:34 -0700
+
+
+Started GET "/about" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (7.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (7.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:36 -0700
+
+
+Started GET "/resources/travelers" for 127.0.0.1 at 2014-07-21 16:08:37 -0700
+Processing by ResourcePagesController#travelers as HTML
+  Rendered resource_pages/travelers.html.erb within layouts/application (9.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/resources/travelers" for 127.0.0.1 at 2014-07-21 16:08:37 -0700
+Processing by ResourcePagesController#travelers as HTML
+  Rendered resource_pages/travelers.html.erb within layouts/application (9.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:38 -0700
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'ce3569a42b7e2db386205cd5fafb1657ab37e082' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/format.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/grayscale.css?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/logoalter.png" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/format.css?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/getthere_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/corporate_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/resource_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/travel_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
+
+
+Started GET "/assets/virtuoso_pages.js?body=1" for 127.0.0.1 at 2014-07-21 16:08:39 -0700
