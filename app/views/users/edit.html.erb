@@ -2,7 +2,11 @@
 
 <h1>Update your profile</h1>
 
-<div class="row">
+<br>
+<div class = "container">
+  <% @user = current_user%>
+  <%= render "users/menu" %>
+  
   <div class="span6 offset3 edituser">
     <%= form_for(@user) do |f| %>
       <%= render 'shared/error_messages' %>
@@ -21,6 +25,4 @@
 
       <%= f.submit "Save changes", class: "btn btn-large btn-primary" %>
     <% end %>
-
-      </div>
 </div>

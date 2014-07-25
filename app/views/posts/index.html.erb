@@ -2,10 +2,18 @@
 
 <h1>All posts</h1>
 
-<ul class="posts">
-  <% @posts.each do |post| %>
-    <li>
-	   <%= link_to post.content, post %>
-    </li>
-  <% end %>
-</ul>
+<br>
+<div class = "container">
+  <% @user = current_user%>
+  <%= render "users/menu" %>
+  
+  <div class="col-lg-10">
+	<ul class="posts">
+	  <% @posts.each do |post| %>
+	    <li>
+		   <%= link_to post.content, post %>
+	    </li>
+	  <% end %>
+	</ul>
+  </div>
+</div>
