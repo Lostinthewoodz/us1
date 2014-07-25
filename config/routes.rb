@@ -3,6 +3,8 @@ Us1::Application.routes.draw do
   
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :posts
+
   root  'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
@@ -25,6 +27,8 @@ Us1::Application.routes.draw do
 
   match "/virtuoso/luxury", to: "virtuoso_pages#luxury", via: 'get'
   get "/getthere/portal" => redirect("http://wcp.getthere.net/us1travel")
+
+  #match "users/main", to: "users#main" , via: 'get'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

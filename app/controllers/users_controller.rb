@@ -1,11 +1,12 @@
 class UsersController < ApplicationController
-  before_action :signed_in_user, only: [:index, :show]
+  before_action :signed_in_user, only: [:index, :show, :feed]
   before_action :correct_user,   only: []
   before_action :admin_user,     only: [:destroy, :index, :new, :edit, :update]
 
 
   def show
-  	@user = User.find(params[:id])
+    @user = User.find(params[:id])
+    @post  = current_user.posts.build
   end
 
   def new
@@ -63,7 +64,7 @@ class UsersController < ApplicationController
       end
     end
 
-     def correct_user
+    def correct_user
       @user = User.find(params[:id])
       redirect_to(root_url) unless current_user?(@user)
     end

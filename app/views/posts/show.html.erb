@@ -1,0 +1,14 @@
+<%= stylesheet_link_tag "format", media: "all",
+                                           "data-turbolinks-track" => true %>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
+<% @userid = @post.user_id %>
+<% @user = User.find(@userid)%>
+
+<h3>Author: <%= @user.name %> </h3>
+<h3>Created on: <%= @post.created_at%> </h3>
+<p><%= @post.content %></p>
+
+<%= link_to "Sign out", signout_path, method: "delete" , class: "btn btn-large btn-primary signoutbutton"%>
+
+
