@@ -2,9 +2,11 @@
 
 <h1>Create New Agent</h1>
 
-
-<div class="row">
-  <div class="span6 offset3 signup">
+<br>
+<div class = "container">
+  <%= render "menu" %>
+  
+  <div class="col-lg-10">
     <%= form_for(@user) do |f| %>
       <%= render 'shared/error_messages' %>
 
@@ -23,6 +25,9 @@
       <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
     <% end %>
   </div>
+
+  
 </div>
 
 
+  

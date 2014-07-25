@@ -2,15 +2,7 @@
 <h1><%= @user.name %></h1>
 <br>
 <div class = "container">
-	
-	<div class = "btn-group-vertical col-lg-2">
-		<%if @user.admin? %>
-		<%= link_to "All Agents", users_path, class: "btn btn-large btn-primary signoutbutton"%>
-		<%= link_to "Create Agent", signup_path, class: "btn btn-large btn-primary signoutbutton"%>
-		<%end%>
-		<%= link_to "All Posts", posts_path, class: "btn btn-large btn-primary signoutbutton"%>
-		<%= link_to "Sign out", signout_path, method: "delete" , class: "btn btn-large btn-primary signoutbutton"%>
-	</div>
+	<%= render "menu" %>
 	
 	<div class = "col-lg-10">
 		<%= render "/shared/micropost_form" %>
