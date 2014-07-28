@@ -1,11 +1,15 @@
 
 <h1>Agent Resources</h1>
 
-<div class = "buttonholder">
-	<%= link_to "Agent Portal", new_session_path, class: "btn btn-default btn-lg"%>
+<div class = "container">
+<% @user = current_user %>
+  <%= render "/users/menu" %>
+  
+  <div class="col-lg-10">
+    <ul class="users">
+      <p>dooby doobop</p>
+    </ul>
+  </div>
+
+  
 </div>
-
-<p>If you ain't got no money take your broke ass home. IF YOU AIN'T GOT NO MONEY TAKE YOUR BROKE BROKE...</p>
-
-
-
