@@ -17,7 +17,14 @@
 </head>
 
 <body id="page-top" >
-    <div class = 'topmenu'>
+    <% if current_page?(root_path) %>
+        <div class = 'topmenuroot'>
+    <% else %>
+        <div class = 'topmenu'>        
+    <% end %>
+
+    
+
     <%= render 'layouts/header' %>
     </div>
 	   <%= yield %>
