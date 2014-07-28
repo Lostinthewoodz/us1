@@ -1,14 +1,14 @@
 
-
-<h1>Update your profile</h1>
+<%@edituser = User.find(params[:id])%>
+<h1>Update <%=@edituser.name%>'s profile</h1>
 
 <br>
 <div class = "container">
-  <% @user = User.find(params[:id])%>
+  <% @user = current_user%>
   <%= render "users/menu" %>
   
   <div class="span6 offset3 edituser">
-    <%= form_for(@user) do |f| %>
+    <%= form_for(@edituser) do |f| %>
       <%= render 'shared/error_messages' %>
 
       <%= f.label :name %>

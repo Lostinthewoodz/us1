@@ -8,14 +8,14 @@
   <%= render "menu" %>
   
   <div class="col-lg-10">
-    <ul class="users">
+    <ul>
       <% @users.each do |user| %>
-        <li>
-      <%= link_to user.name, user %>
+        <li class = "users">
+      <%= link_to user.name, user , class: 'users'%>
       <% if current_user.admin? && !current_user?(user) %>
         | <%= link_to "delete", user, method: :delete,
-                                  data: { confirm: "You sure?" } %>
-        | <%= link_to "edit", edit_user_path(user)%>
+                                  data: { confirm: "You sure?" } , class: 'users'%>
+        | <%= link_to "edit", edit_user_path(user), class: 'users'%>
         <% end %>
         </li>
       <% end %>

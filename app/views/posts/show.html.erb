@@ -1,12 +1,22 @@
-
 <% @userid = @post.user_id %>
-<% @user = User.find(@userid)%>
+	<% @user = User.find(@userid)%>
+<h1><%= @post.title %></h1>
 
-<h3>Author: <%= @user.name %> </h3>
-<h3>Created on: <%= @post.created_at%> </h3>
-<h4>Title: <%= @post.title %></h4>
-<p><%= @post.content %></p>
+<div class = "container">
+	
+	<%= render "/users/menu" %>
+	
+	<div class = "col-lg-10">
+		<div class = post>
+		
+		<h4 class = 'posttitle'>  Author: <%= @user.name %> </h4>
+		<h4 class = 'posttime'>Created on: <%= @post.created_at%> </h3>
+		
+		<p class = 'postcontent'><%= @post.content %></p>
+		</div>
+	</div>
+	
+</div>
 
-<%= link_to "Sign out", signout_path, method: "delete" , class: "btn btn-large btn-primary signoutbutton"%>
-
+		
 

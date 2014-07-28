@@ -8,13 +8,13 @@
   <%= render "users/menu" %>
   
   <div class="col-lg-10">
-	<ul class="posts">
+	<ul>
 	  <% @posts.each do |post| %>
-	    <li>
-		   <%= link_to post.title, post %>
+	    <li class="posts">
+		   <%= link_to post.title, post,  class:"posts" %>
 		   <% if @user.admin?%>
        		 | <%= link_to "delete", post, method: :delete,
-                                  data: { confirm: "You sure?" } %>
+                                  data: { confirm: "You sure about dat?" }, class:"posts" %>
       		<% end %>
 	    </li>
 	  <% end %>
