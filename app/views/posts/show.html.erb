@@ -4,6 +4,7 @@
 
 <h3>Author: <%= @user.name %> </h3>
 <h3>Created on: <%= @post.created_at%> </h3>
+<h4>Title: <%= @post.title %></h4>
 <p><%= @post.content %></p>
 
 <%= link_to "Sign out", signout_path, method: "delete" , class: "btn btn-large btn-primary signoutbutton"%>
