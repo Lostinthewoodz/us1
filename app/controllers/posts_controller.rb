@@ -14,10 +14,10 @@ class PostsController < ApplicationController
     @post = current_user.posts.build(post_params)
     if @post.save
       flash[:success] = "post created!"
-      redirect_to root_url
+      redirect_to posts_path
     else
       @feed_items = []
-      flash[:success] = "post createdfadsfawefawfawef!"
+      redirect_to posts_path
     end
   end
   
@@ -29,7 +29,7 @@ class PostsController < ApplicationController
   private
 
     def post_params
-      params.require(:post).permit(:content)
+      params.require(:post).permit(:title, :content)
     end
 
     def correct_user
