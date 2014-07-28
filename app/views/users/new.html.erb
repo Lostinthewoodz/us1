@@ -4,24 +4,20 @@
 
 <br>
 <div class = "container">
-  <% @user = current_user%>
+  
   <%= render "menu" %>
   
   <div class="col-lg-10">
     <%= form_for(@user) do |f| %>
       <%= render 'shared/error_messages' %>
 
-      <%= f.label :name %>
-      <%= f.text_field :name %>
+      <%= f.text_field :name , placeholder: "Name..."%>
 
-      <%= f.label :email %>
-      <%= f.text_field :email %>
+      <%= f.text_field :email, placeholder: "Email..." %>
 
-      <%= f.label :password %>
-      <%= f.password_field :password %>
+      <%= f.password_field :password, placeholder: "Password..." %>
 
-      <%= f.label :password_confirmation, "Confirmation" %>
-      <%= f.password_field :password_confirmation %>
+      <%= f.password_field :password_confirmation, placeholder: "Password Confirmation..." %>
 
       <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
     <% end %>

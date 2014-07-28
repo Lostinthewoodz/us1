@@ -4,7 +4,7 @@
 
 <br>
 <div class = "container">
-  <% @user = current_user%>
+  <% @user = User.find(params[:id])%>
   <%= render "users/menu" %>
   
   <div class="span6 offset3 edituser">

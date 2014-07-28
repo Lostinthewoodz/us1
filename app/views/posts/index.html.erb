@@ -12,6 +12,10 @@
 	  <% @posts.each do |post| %>
 	    <li>
 		   <%= link_to post.title, post %>
+		   <% if @user.admin?%>
+       		 | <%= link_to "delete", post, method: :delete,
+                                  data: { confirm: "You sure?" } %>
+      		<% end %>
 	    </li>
 	  <% end %>
 	</ul>
