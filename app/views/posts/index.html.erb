@@ -11,7 +11,7 @@
 	<ul class="posts">
 	  <% @posts.each do |post| %>
 	    <li>
-		   <%= link_to post.content, post %>
+		   <%= link_to post.title, post %>
 	    </li>
 	  <% end %>
 	</ul>
