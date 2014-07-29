@@ -13,4 +13,8 @@ $(document).ready(function() {
         window.location = newLocation;
     }
 
+    $('.toggler').click(function() {
+        $(this).find('div').slideToggle();
+    });
 });
+
