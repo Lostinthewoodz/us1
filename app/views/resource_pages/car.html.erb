@@ -1,0 +1,50 @@
+<h1>Car Rental Resources</h1>
+
+<br>
+<div class = "container">
+  <% @user = current_user%>
+  <%= render "/users/menu" %>
+  
+  <div class="col-lg-10">
+    <ul style = 'color:black; padding-bottom:40px'>
+      <li>
+        <%=link_to "Alamo", "https://ta.alamo.com/home.do", :target => "_blank" %>  
+      </li>
+      <li>
+        <%=link_to "Auto Europe", "http://www.autoeurope.com/tasite/", :target => "_blank" %>
+      </li>
+      <li>
+        <%=link_to "Avis", "http://www.avisagent.com/", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Budget", "http://www.budget.com/budgetWeb/home/tahome.ex", :target => "_blank" %>   
+      </li>
+      <li>
+        <%=link_to "Carey", "https://www.carey.com/eRes/displayLogin.do", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Dollar", "https://www.dollar.com/TravelCenter/TravelAgents.aspx", :target => "_blank" %>   
+      </li>
+      <li>
+        <%=link_to "Enterprise", "http://www.enterprise.com/car_rental/travelAgent.do", :target => "_blank" %>   
+      </li>
+      <li>
+        <%=link_to "Hertz", "https://www.hertz.com/rentacar/emember/travelAgent/login/index.jsp?targetPage=travelAgentLoginView.jsp", :target => "_blank" %>   
+      </li>
+      <li>
+        <%=link_to "ICS", "https://www.e-zreservations.com/WebApp/LoginTA.jsp?jsessionid=26553AF00940537BEAB9813895BB231E", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Kemwel", "http://www.kemwel.com/travage.cfm", :target => "_blank" %>   
+      </li>
+      <li>
+        <%=link_to "Thrifty", "http://www.thrifty.com/TravelCenter/TravelAgents/SignIn.aspx", :target => "_blank" %>   
+      </li>
+      
+      
+    </ul>
+  </div>
+
+  
+</div>
+

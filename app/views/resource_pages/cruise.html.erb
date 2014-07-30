@@ -1,0 +1,42 @@
+<h1>Cruise Resources</h1>
+
+<br>
+<div class = "container">
+  <% @user = current_user%>
+  <%= render "/users/menu" %>
+  
+  <div class="col-lg-10">
+    <ul style = 'color:black; padding-bottom:40px'>
+      <li>
+        <%=link_to "Carnival Cruise Lines", "www.bookccl.com", :target => "_blank" %> 
+      <li>
+        <%=link_to "Celebrity Cruises", "https://secure.cruisingpower.com/SecureLogin.do?", :target => "_blank" %>  
+      </li>
+      <li>
+        <%=link_to "Crystal Cruises", "http://www.crystalcruises.com/agent/login.aspx", :target => "_blank" %>
+      </li>
+      <li>
+        <%=link_to "Cunard Cruise Line", "https://book.princess.com/BookingSystem/login.page?company=CU", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Disney Cruises", "http://www.disneytravelagents.com/portal/site/dta-domestic", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Holland America", "https://www.hollandamerica.com/travelAgentHQ/Main.action", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Norwegian Cruise Line", "https://www.ncl.com/nclweb/secure/partners.html", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Princess Cruises", "https://book.princess.com/BookingSystem/login.page", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Royal Caribbean", "https://secure.cruisingpower.com/SecureLogin.do?", :target => "_blank" %> 
+      </li>
+      
+    </ul>
+  </div>
+
+  
+</div>
+

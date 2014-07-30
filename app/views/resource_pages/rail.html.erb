@@ -1,0 +1,30 @@
+<h1>Rail Resources</h1>
+
+<br>
+<div class = "container">
+  <% @user = current_user%>
+  <%= render "/users/menu" %>
+  
+  <div class="col-lg-10">
+    <ul style = 'color:black'>
+      <li>
+        <%=link_to "Amtrak", "http://vacation.agentnet.com/anet/index.jsp", :target => "_blank" %> 
+      </li>
+      <li>
+        <%=link_to "Britrail", "http://agent.acprail.com/", :target => "_blank" %>
+      </li>
+      <li>
+        <%=link_to "Rail Europe", "https://agent.raileurope.com/no_auth/login.htm", :target => "_blank" %>
+      </li>
+      <li>
+        <%=link_to "Via Rail Canada", "https://agency.reservia.viarail.ca/Agency/LoginAgency.aspx", :target => "_blank" %> 
+      </li>
+      
+      
+    </ul>
+  </div>
+
+  
+</div>
+
+
