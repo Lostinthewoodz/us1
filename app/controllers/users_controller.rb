@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :signed_in_user, only: [:index, :show, :feed]
   before_action :correct_user,   only: []
-  before_action :admin_user,     only: [:destroy, :index, :edit, :update]
+  before_action :admin_user,     only: [:destroy, :index, :new, :edit, :update]
 
 
   def show
@@ -15,7 +15,6 @@ class UsersController < ApplicationController
 
   def create
   	@user = User.new(user_params)
-    @user.admin = true
   	if @user.save
       flash[:success] = "Welcome to the US1 Travel!"
   		redirect_to users_path
