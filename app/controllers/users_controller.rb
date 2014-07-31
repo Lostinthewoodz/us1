@@ -28,12 +28,12 @@ class UsersController < ApplicationController
   end
 
   def edit
-    @user = User.find(params[:id])
+    @edituser = User.find(params[:id])
   end
 
   def update
-    @user = User.find(params[:id])
-    if @user.update_attributes(user_params)
+    @edituser = User.find(params[:id])
+    if @edituser.update_attributes(user_params)
       redirect_to users_path
       flash[:success] = "Profile updated"
     else
@@ -52,7 +52,7 @@ class UsersController < ApplicationController
 
     def user_params
       params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation)
+                                   :password_confirmation, :admin)
     end
 
     # Before filters

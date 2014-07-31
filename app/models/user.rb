@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
 	                uniqueness: { case_sensitive: false }
 	has_secure_password
 	validates :password, length: { minimum: 6 }
+	validates_inclusion_of :admin, :in => [true, false]
 
 	def create
     @user = User.new(user_params)
