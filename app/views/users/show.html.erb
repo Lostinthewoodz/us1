@@ -4,10 +4,21 @@
 <br>
 <div class = "container">
 	<%= render "menu" %>
-	
-	<div class = "col-lg-10">
-		<%= render "/shared/micropost_form" %>
-	</div>
+	<% if current_user == @user %>
+		<div class = "col-lg-10">
+			<%= render "/shared/micropost_form" %>
+		</div>
+	<% else %>
+		<% @user.posts.each do |post| %>
+	    <li class="posts">
+		   <%= link_to post.title, post,  class:"posts" %>
+		   <% if @user.admin?%>
+       		 | <%= link_to "delete", post, method: :delete,
+                                  data: { confirm: "You sure about dat?" }, class:"posts" %>
+      		<% end %>
+	    </li>
+	  <% end %>
+	<% end %>
 	
 </div>
 
