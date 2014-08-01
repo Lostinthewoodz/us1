@@ -10,6 +10,7 @@ Us1::Application.routes.draw do
   match '/signin',  to: 'sessions#new',         via: 'get'
   match '/signout', to: 'sessions#destroy',     via: 'delete'
   match '/about', to:"static_pages#about", via: 'get'
+  match '/contact', to:"static_pages#contact", via: 'get'
   
   match "/travel/tour", to: "travel_pages#tour", via: 'get'
   match "/travel/cruise", to: "travel_pages#cruise", via: 'get'
