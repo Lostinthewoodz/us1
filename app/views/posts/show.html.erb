@@ -10,7 +10,7 @@
 		<div class = post>
 		
 		<h4 class = 'posttitle'>  Author: <%= @user.name %> </h4>
-		<h4 class = 'posttime'>Created on: <%= @post.created_at%> </h3>
+		<h4 class = 'posttime'>Created: <%= @post.created_at.strftime("%H:%M")%>, <%=@post.created_at.strftime("%b %d. %Y")%> </h3>
 		
 		<p class = 'postcontent'><%= @post.content %></p>
 		</div>
