@@ -35,15 +35,30 @@
                         <li class = "dropdown">
                             <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Resources <b class = "caret"></b></a>
                             <ul class = "dropdown-menu">
-                                    <% if signed_in? %>
-                                        <li><%= link_to "Agents", current_user%></li>    
-                                    <% else %>
-                                        <li><%= link_to "Agents", new_session_path%></li>
-                                    <%end%>
-                                    <li><%= link_to "Travelers", resources_travelers_path%></li>
+                                    <li><%= link_to "Currency Converter", "http://www.oanda.com/currency/converter/"%></li>
+                                    <li><%=link_to "Flight Tracker", "http://flightaware.com/"%></li>
+                                    <li><%=link_to "Airport Information", "http://flightaware.com/"%></li>
+                                    <li><%=link_to "Weather", "http://www.weather.com/activities/travel/businesstraveler/"%></li>
+                                    <li><%=link_to "TSA Information", "http://www.tsa.gov/traveler-information"%></li>
+                                    <li><%=link_to "Visa Information", "http://travel.state.gov/content/passports/english/country.html"%></li>
+                                    <li><%=link_to "State Department", "http://www.state.gov/travel/"%></li>
                             </ul>
                             
                         </li>
+
+                        <li class = "dropdown">
+                            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Travel Advisors <b class = "caret"></b></a>
+                            <ul class = "dropdown-menu">
+                                    <% if signed_in? %>
+                                        <li><%= link_to "Profile", current_user%></li>    
+                                    <% else %>
+                                        <li><%= link_to "Sabre Users", new_session_path%></li>
+                                    <%end%>
+                                    <li><%= link_to "Non GDS Users", root_path%></li>
+                                    <li><%= link_to "Host Agency", root_path%></li>
+                            </ul>    
+                        </li>
+
                         <li class = "dropdown">
                             <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Getthere <b class = "caret"></b></a>
                             <ul class = "dropdown-menu">
