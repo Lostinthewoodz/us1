@@ -6,8 +6,8 @@ Us1::Application.initialize!
 
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
-  :user_name      => ENV['app27788021@heroku.com'],
-  :password       => ENV['0ofoexey'],
+  :user_name      => 'app27788021@heroku.com',
+  :password       => '0ofoexey',
   :domain => "heroku.com",
   :address => "smtp.sendgrid.net",
   :port => 587,
