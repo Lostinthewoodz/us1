@@ -1,7 +1,7 @@
 class UserMailer < ActionMailer::Base
-  default from: "app27788021@heroku.com"
+  default from: "example@heroku.com"
   def welcome_email(user)
   	@user = user
-  	mail(to: @user.email, subject: 'test welcome | email')
+  	mail(to: "wc9825@gmail.com", subject: 'test welcome | email')
   end
 end
