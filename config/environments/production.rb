@@ -66,14 +66,14 @@ Us1::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   ActionMailer::Base.smtp_settings = {
-  :user_name => 'app27788021@heroku.com',
-  :password => '0ofoexey',
+  :user_name      => ENV['app27788021@heroku.com'],
+  :password       => ENV['0ofoexey'],
   :domain => 'heroku.com',
   :address => 'smtp.sendgrid.net',
   :port => 587,
   :authentication => :plain,
   :enable_starttls_auto => true
-}
+  }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found).
