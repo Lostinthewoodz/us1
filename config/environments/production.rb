@@ -67,7 +67,7 @@ Us1::Application.configure do
 
   ActionMailer::Base.smtp_settings = {
   :user_name => 'app27788021@heroku.com',
-  :password => 'qv1qko1x',
+  :password => '0ofoexey',
   :domain => 'heroku.com',
   :address => 'smtp.sendgrid.net',
   :port => 587,
