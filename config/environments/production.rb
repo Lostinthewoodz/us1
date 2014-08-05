@@ -65,17 +65,15 @@ Us1::Application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
 
-
-  config.action_mailer.deliver_method = :smtp
-  config.action_mailer.smtp_settings = {
-    :address => 'smtp.sendgrid.net',
-    :port => '587',
-    :authentication => :plain,
-    :user_name => 'app27788021@heroku.com',
-    :password => 'qv1qko1x'
-    :domain => 'heroku.com'
-    :enable_starttls_auto => true
-  }
+  ActionMailer::Base.smtp_settings = {
+  :user_name => 'app27788021@heroku.com',
+  :password => 'qv1qko1x',
+  :domain => 'heroku.com',
+  :address => 'smtp.sendgrid.net',
+  :port => 587,
+  :authentication => :plain,
+  :enable_starttls_auto => true
+}
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found).
