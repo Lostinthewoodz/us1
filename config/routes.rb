@@ -4,6 +4,7 @@ Us1::Application.routes.draw do
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
   resources :posts
+  resources :contacts, only: [:new, :create] 
 
   root  'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'

@@ -16,7 +16,6 @@ class UsersController < ApplicationController
   def create
   	@user = User.new(user_params)
   	if @user.save
-      UserMailer.welcome_email(@user).deliver
       flash[:success] = "Welcome to the US1 Travel!"
   		redirect_to users_path
   	else

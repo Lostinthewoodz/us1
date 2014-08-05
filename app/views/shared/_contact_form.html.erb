@@ -1,0 +1,6 @@
+<%= form_for(@contact) do |f| %>
+    <%= f.text_field :title, placeholder: "Title..." %>
+    <%= f.text_field :email, placeholder: "Email..." %>
+    <%= f.text_area :content%>
+  	<%= f.submit "Post", class: "btn btn-large btn-primary signoutbutton" %>
+<% end %>
