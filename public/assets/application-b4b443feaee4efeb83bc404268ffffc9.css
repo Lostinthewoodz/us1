@@ -1,0 +1,543 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+
+    color: #fff;
+    background-color: #000;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #28c3ab;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.home-button:hover{
+    color: yellow;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: yellow;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar { /* Changes text of the navbar */
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    background-color: yellow;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: yellow;
+}
+
+.navbar-home a { /* Color of navbar text */
+    color: #fff;
+}
+
+.links {
+    font-family: Oswald;
+    padding: 27px 0px 0px 0px; /* 27x creates 27 pixels of space from the top */ 
+}
+
+.logotitle {
+    padding: -10px 0px 0px 0px; /* 20x creates 20 pixels of space from the top */ 
+    /*font-family: Open Sans, sans-serif;*/
+    font-size: 14px;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 15px 0px 0px 0px; /* 20x creates 20 pixels of space from the topdd */ 
+        border-bottom: 0; /* the zero gets rid of a small border line that would appear at the bottom of the div */
+        letter-spacing: 1px; /* Spacing between letters */
+        background: 0 0;
+        background-color: transparent; /* changes background color of navbar */        
+    }
+
+    
+}
+
+.dropdown-toggle:hover, 
+.dropdown-toggle:active{
+    background-color: yellow !important;  /* Controls attributes of the dropdown menu main tabs*/
+    color: #000 !important;
+}
+
+.dropdown-menu{
+    background-color: #fff;
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+.intro {
+    display: table;
+    padding: 100px 0; /* Changes height of intro */
+    width: 100%;
+    text-align: center;
+    color: #fff; /* color for intro text */
+    background: url(/assets/earth-copycopy1.jpg)  no-repeat bottom center scroll;
+    background-size: cover;
+}
+
+.intro-body {
+
+    vertical-align: middle;
+}
+
+.brand-heading {
+    font-size: 40px;
+    font-family: Oswald;
+    color: black;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #000;
+}
+
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+    }
+
+    .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro-text {
+        font-size: 25px;
+    }
+}
+
+
+.page-scroll .btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.page-scroll .btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {    
+    0 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0 {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    padding-top: 100px;
+}
+
+.calling-card {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    position: bottom;
+}
+
+.copyright{
+    position: right;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .travel-section {
+        padding-top: 205px;
+        padding-bottom: 120px;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/* Button colors, etc. */
+
+.btn-default {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #fff;
+    outline: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-huge {
+    padding: 25px;
+    font-size: 26px;
+}
+
+.banner-social-buttons {
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.banner-social-buttons>li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons>li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+
+/* Custom additions */
+
+.topmenu{
+    background-color: rgb(22,38,64);
+}
+
+.topmenuroot{
+    background-color: black;
+}
+
+body{
+    background-color: white;
+}
+
+.aboutus{
+    
+}
+
+h1{
+    padding-top: 35px;
+    text-align: center;
+
+}
+
+.posttitle,
+.posttime,
+.postauthor,
+.postcontent{
+    text-align: justify;
+}
+
+.postcontent{
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.p1{
+    font-family: Ubuntu;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: justify;
+}
+
+.p2{
+    font-family: Ubuntu;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 70px;
+    text-align: justify;
+}
+
+
+p{
+    font-family: Ubuntu;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+}
+
+
+.buttonholder{
+    text-align: center;
+    padding-top: 0px
+}
+
+
+.signin{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:350px;
+}
+
+.signup,
+.edituser{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+}
+
+.flash{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    padding-bottom: -20px
+
+}
+
+input, textarea, select, .uneditable-input {
+  border: 3px solid rgb(22,38,64);
+  width: 90%;
+  margin-bottom: 15px;
+  height: 275px;
+  
+}
+
+
+
+input {
+  height: auto !important;
+}
+
+.signoutbutton{
+    border: rgb(22,38,64);
+    color:white;
+    background-color: rgb(22,38,64);
+    
+}
+.signoutbutton:hover{
+    color:black;
+    background-color: yellow;
+}
+
+.posts,
+.users{
+    color: black;
+}
+
+/* Traveler Resources */
+
+.resources{
+    padding-top: 30px;
+}
+
+
+.resource:hover{
+    color: rgb(22,38,64);
+
+}
+
+.resourceicon{
+    color:black;
+    text-align: center;
+}
+
+.flighttrack{
+    border-radius: 3px;
+    border-color: black;
+}
+.moneyicon{
+    text-align: center;
+    color:black;
+
+}
+
+.doobop{
+    color:black;
+}
+
+.doobop:hover {
+  color: rgb(22,38,64);
+}
+
+.dooby:hover {
+  color: rgb(22,38,64);
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+
+.gt1container,
+.gt2container{
+    height: 500px;
+    vertical-align: middle;
+    display: table-cell; /* Puts */
+}
+.gt1,
+.gt2 {
+    text-align:justify; 
+    color:black; 
+    font-family: Ubuntu; 
+    font-size: 18px;
+    padding-top: 20px;
+    margin-bottom:auto;
+    margin-top:auto;    
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.airporttext {
+    margin-left: 35%;
+}
+
+.airports a{
+    color:black;
+}
+.airports a:hover{
+    color:yellow;
+}
