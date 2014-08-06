@@ -22,6 +22,11 @@ class ResourcePagesController < ApplicationController
   def car
   end
 
+  def airport
+  end
+
+  def domestic
+  end
 
 
 

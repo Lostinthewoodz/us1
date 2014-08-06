@@ -25,6 +25,8 @@ Us1::Application.routes.draw do
   match "/resources/tour", to: "resource_pages#tour", via: 'get'
   match "/resources/car", to: "resource_pages#car", via: 'get'
   match "/resources/cruise", to: "resource_pages#cruise", via: 'get'
+  match "/resources/airport", to: "resource_pages#airport", via: 'get'
+  match "/resources/domestic", to: "resource_pages#domestic", via: 'get'
   
   match "/getthere/about", to: "getthere_pages#about", via: 'get'
   match "/getthere/login", to: "getthere_pages#login", via: 'get'
