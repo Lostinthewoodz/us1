@@ -34,8 +34,9 @@
 
 <body id="page-top">
 
-<% if current_page?(resources_airport_path) %>
+<% if current_page?(resources_airport_path) || current_page?(resources_domestic_path)%>
     <body id="page-top" class = 'airport'>
+
 <% elsif current_page?(contact_path)%>
     <body id="page-top" class = 'contact'>
 <% elsif current_page?(about_path)%>

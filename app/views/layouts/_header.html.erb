@@ -27,30 +27,16 @@
                         <li class = "dropdown">
                             <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Resources <b class = "caret"></b></a>
                             <ul class = "dropdown-menu">
-                                    <li><%= link_to "Currency Converter", "http://www.oanda.com/currency/converter/", :target => "_blank"%></li>
-                                    <li><%=link_to "Flight Tracker", "http://flightaware.com/", :target => "_blank"%></li>
-                                    <li><%=link_to "Airport Information", resources_airport_path%></li>
-                                    <li><%=link_to "Weather", "http://www.weather.com/activities/travel/businesstraveler/", :target => "_blank"%></li>
-                                    <li><%=link_to "TSA Information", "http://www.tsa.gov/traveler-information", :target => "_blank"%></li>
-                                    <li><%=link_to "Visa Information", "http://travel.state.gov/content/passports/english/country.html", :target => "_blank"%></li>
-                                    <li><%=link_to "State Department", "http://www.state.gov/travel/", :target => "_blank"%></li>
-                                    
+                                    <li><%=link_to "Travelers", resources_travelers_path%></li>
+                                    <% if signed_in? %>
+                                        <li><%= link_to "Profile", current_user%></li>    
+                                    <% else %>
+                                        <li><%= link_to "Travel Advisors", new_session_path%></li>
+                                    <%end%>
                             </ul>
                             
                         </li>
 
-                        <li class = "dropdown">
-                            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Travel Advisors <b class = "caret"></b></a>
-                            <ul class = "dropdown-menu">
-                                    <% if signed_in? %>
-                                        <li><%= link_to "Profile", current_user%></li>    
-                                    <% else %>
-                                        <li><%= link_to "Sabre Users", new_session_path%></li>
-                                    <%end%>
-                                    <li><%= link_to "Non GDS Users", root_path%></li>
-                                    <li><%= link_to "Host Agency", root_path%></li>
-                            </ul>    
-                        </li>
 
                         <li class = "dropdown">
                             <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Getthere <b class = "caret"></b></a>
@@ -84,9 +70,14 @@
                                     <li><%= link_to "Virtuoso Website", 'http://www.virtuoso.com/', :target => "_blank"%></li>
                             </ul>
                         </li>
-                        <li > 
-                            <%= link_to "About", about_path, class: "dropdown-toggle dropdown-main"%>
+                         <li class = "dropdown">
+                            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> About <b class = "caret"></b></a>
+                            <ul class = "dropdown-menu">
+                                    <li><%= link_to "US1 Travel", about_path%></li>
+                                    <li><%= link_to "Host Agency Program", root_path%></li>
+                            </ul>
                         </li>
+
                         <li > 
                             <%= link_to "Contact", contact_path, class: "dropdown-toggle dropdown-main"%>
                         </li>
