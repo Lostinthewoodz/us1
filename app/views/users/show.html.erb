@@ -6,6 +6,9 @@
 <div class = "container">
 	<%= render "menu" %>
 	<% if current_user == @user %>
+	<div class = 'col-lg-10 col-md-10'>
+		<%= render "/shared/micropost_form" %>
+	</div>
 	<% else %>
 		<% @user.posts.each do |post| %>
 	    <li class="posts">
