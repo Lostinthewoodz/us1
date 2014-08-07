@@ -29,7 +29,7 @@
                             <ul class = "dropdown-menu">
                                     <li><%=link_to "Travelers", resources_travelers_path%></li>
                                     <% if signed_in? %>
-                                        <li><%= link_to "Profile", current_user%></li>    
+                                        <li><%= link_to "Profile", resources_agents_path%></li>    
                                     <% else %>
                                         <li><%= link_to "Travel Advisors", new_session_path%></li>
                                     <%end%>
