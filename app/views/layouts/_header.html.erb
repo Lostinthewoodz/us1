@@ -24,14 +24,6 @@
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse col-md-8 col-lg-8">
                     
                     <ul class="nav navbar-nav links">
-                        <li > 
-                        	<%= link_to "About", about_path, class: "dropdown-toggle dropdown-main"%>
-                        </li>
-                        <li > 
-                            <%= link_to "Contact", contact_path, class: "dropdown-toggle dropdown-main"%>
-                        </li>
-
-                        
                         <li class = "dropdown">
                             <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> Resources <b class = "caret"></b></a>
                             <ul class = "dropdown-menu">
@@ -92,6 +84,13 @@
                                     <li><%= link_to "Virtuoso Website", 'http://www.virtuoso.com/', :target => "_blank"%></li>
                             </ul>
                         </li>
+                        <li > 
+                            <%= link_to "About", about_path, class: "dropdown-toggle dropdown-main"%>
+                        </li>
+                        <li > 
+                            <%= link_to "Contact", contact_path, class: "dropdown-toggle dropdown-main"%>
+                        </li>
+
                         
                     </ul>
                 </div>
