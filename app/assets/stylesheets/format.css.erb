@@ -322,7 +322,7 @@ img::selection {
     background: 0 0;
 }
 
-img::-moz-selection {
+img::-moz-selection {a
     background: 0 0;
 }
 
@@ -341,8 +341,32 @@ body{
     background-color: white;
 }
 
+.contact{
+
+    padding: 80px 0; /* Changes height of intro */
+    background: url(<%= asset_path 'blackbeachsmall.jpg' %>)  no-repeat bottom center scroll;
+    background-size: cover;
+}
+
+.airport{
+    padding-top: 10px;
+    padding-bottom: 450px;
+    background: url(<%= asset_path '113H.jpg' %>)  no-repeat bottom center scroll;
+    background-size: cover;
+}
+
 .aboutus{
-    
+
+    padding: 90px 0; /* Changes height of intro */
+    background: url(<%= asset_path 'sky.jpg' %>)  no-repeat bottom center scroll;
+    background-size: cover;
+}
+
+.about{
+    font-family: Ubuntu;
+    font-size: 20px;
+    text-align: justify;
+
 }
 
 h1{
@@ -537,9 +561,4 @@ input {
 .agentresources li a:hover{
     color:yellow;
     
-}
-.about{
-    font-family: Ubuntu;
-    font-size: 20px;
-    text-align: justify;
 }
