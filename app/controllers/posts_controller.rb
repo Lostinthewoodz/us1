@@ -11,7 +11,7 @@ class PostsController < ApplicationController
     elsif current_user.sabre
       @posts = Post.where(sabre: true).to_a
     elsif current_user.nongds
-      @posts = Post.where(nongds: false).to_a
+      @posts = Post.where(nongds: true).to_a
     end
   end
 
