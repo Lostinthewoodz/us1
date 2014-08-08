@@ -12,13 +12,15 @@
       <%= render 'shared/error_messages' %>
 
       <span style: 'display:block'>
-      <%= label :admin, "Make Admin:", style: 'color:black' %>
+      <%= label :admin, "Admin", style: 'color:black' %>
+      <%= f.check_box :admin%> 
       <br>
-      <%= label :admin, "True", style: 'color:black' %>
-      <%= f.radio_button :admin,'true'%> 
+      <%= label :admin, "Sabre", style: 'color:black' %>
+      <%= f.check_box :sabre%> 
       <br>
-      <%= label :admin, "False", style: 'color:black' %>
-      <%= f.radio_button :admin,'false' %> 
+      <%= label :admin, "NonGDS", style: 'color:black' %>
+      <%= f.check_box :nongds%> 
+      <br>
       </span>
       <br><br>
 
@@ -29,8 +31,6 @@
       <%= f.text_field :password, placeholder: "Password..." %>
 
       <%= f.text_field :password_confirmation, placeholder: "Password Confirmation..." %>
-      
-      
       
       <%= f.submit "Create account", class: "btn btn-large btn-primary signoutbutton" %>
 

@@ -1,16 +1,17 @@
-
+<script src="https://dropinchat.com/dic.js"></script>
 <h1>Home</h1>
 <br>
+
 <div class = "container">
 <% @user = current_user %>
   <%= render "/users/menu" %>
   
   <div class="col-lg-10">
     <div class = 'row'>
-	    <div class = "col-lg-4 flighttrack" >
-			<div class = 'moneyicon'><%= link_to "", resources_tour_path , class: "fa fa-compass fa-5x dooby yellow" %></div>
+    	<div class = "col-lg-4">
+			<div class = 'moneyicon'><%= link_to "", current_user , class: "fa fa-pencil-square fa-5x dooby brown" %></div>
 			<br>
-			<h4>Tour</h4>	
+			<h4>Blog</h4>
 		</div>
 
 		<div class = "col-lg-4">
@@ -41,11 +42,13 @@
 			<br>
 			<h4>Car Rentals</h4>
 		</div>
-		<div class = "col-lg-4">
-			<div class = 'moneyicon'><%= link_to "", current_user , class: "fa fa-pencil-square fa-5x dooby brown" %></div>
+
+	    <div class = "col-lg-4 flighttrack" >
+			<div class = 'moneyicon'><%= link_to "", resources_tour_path , class: "fa fa-compass fa-5x dooby yellow" %></div>
 			<br>
-			<h4>Blog</h4>
+			<h4>Tour</h4>	
 		</div>
+		
     </div>
 
   </div>
