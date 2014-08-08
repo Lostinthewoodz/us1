@@ -2,5 +2,13 @@
 <%= form_for(@post) do |f| %>
     <%= f.text_field :title, placeholder: "Title..." %>
     <%= f.text_area :content, placeholder: "Compose new post..." %>
+    
+    <% if current_user.admin? %>
+    	<%= label :sabre, "Post to Sabre", style: 'color:black' %>
+	    <%= f.check_box :sabre%> 
+      	<br>
+		<%= label :nongds, "Post to NonGDS", style: 'color:black' %>
+    	<%= f.check_box :nongds%> 
+    <% end %>
   	<%= f.submit "Post", class: "btn btn-large btn-primary signoutbutton" %>
 <% end %>
