@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :signed_in_user, only: [:index, :show, :feed]
   before_action :correct_user,   only: []
-  before_action :admin_user,     only: [:destroy, :index, :edit, :update]
+  before_action :admin_user,     only: [:destroy, :index, :new, :edit, :update]
 
 
   def show
