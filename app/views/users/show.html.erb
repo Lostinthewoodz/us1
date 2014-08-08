@@ -21,7 +21,7 @@
 		<% @user.posts.each do |post| %>
 	    <li class="posts">
 		   <%= link_to post.title, post,  class:"posts" %>
-		   <% if @user.admin?%>
+		   <% if current_user.admin?%>
        		 | <%= link_to "delete", post, method: :delete,
                                   data: { confirm: "You sure about dat?" }, class:"posts" %>
       		<% end %>
