@@ -10,6 +10,8 @@ class User < ActiveRecord::Base
 	has_secure_password
 	validates :password, length: { minimum: 6 }
 	validates_inclusion_of :admin, :in => [true, false]
+	validates_inclusion_of :sabre, :in => [true, false]
+	validates_inclusion_of :nongds, :in => [true, false]
 
 	def create
     @user = User.new(user_params)

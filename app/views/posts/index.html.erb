@@ -1,5 +1,3 @@
-
-
 <h1>All posts</h1>
 
 <br>
@@ -12,7 +10,7 @@
 	  <% @posts.each do |post| %>
 	    <li class="posts">
 		   <%= link_to post.title, post,  class:"posts" %>
-		   <% if @user.admin?%>
+		   <% if @user.admin? || @user.email == post.user.email%>
        		 | <%= link_to "delete", post, method: :delete,
                                   data: { confirm: "You sure about dat?" }, class:"posts" %>
       		<% end %>

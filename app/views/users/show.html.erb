@@ -1,15 +1,23 @@
 
 <h1><%= @user.name %></h1>
-<script src="https://dropinchat.com/dic.js"></script>
 
 <br>
 <div class = "container">
+	<div class = 'row'>
 	<%= render "menu" %>
 	<% if current_user == @user %>
-	<div class = 'col-lg-10 col-md-10'>
-		<%= render "/shared/micropost_form" %>
-	</div>
+		<div class = 'col-lg-10 col-md-10'>
+			<%= render "/shared/micropost_form" %>
+		</div>
 	<% else %>
+	<div class = 'col-lg-10 col-md-10'>
+		<% if @user.sabre == true %>
+			<h4 style = 'text-align:left'>Sabre Agent</h4>
+		<% elsif @user.nongds == true %>
+			<h4 style = 'text-align:left'>NonGDS Agent</h4>
+		<% elsif @user.sabre == true %>
+			<h4 style = 'text-align:left'>Admin</h4>
+		<% end %>
 		<% @user.posts.each do |post| %>
 	    <li class="posts">
 		   <%= link_to post.title, post,  class:"posts" %>
@@ -20,6 +28,7 @@
 	    </li>
 	  <% end %>
 	<% end %>
+	</div>
 	
 </div>
 

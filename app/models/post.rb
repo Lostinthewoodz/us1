@@ -4,4 +4,6 @@ class Post < ActiveRecord::Base
 	validates :user_id, presence: true 
 	validates :content, presence: true
 	validates :title, presence: true
+	validates_inclusion_of :sabre, :in => [true, false]
+	validates_inclusion_of :nongds, :in => [true, false]
 end

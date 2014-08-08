@@ -3,15 +3,30 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.find(params[:id])
-    
   end
 
   def index
-    @posts = Post.all
+    if current_user.admin
+      @posts = Post.all
+    elsif current_user.sabre
+      @posts = Post.where(sabre: true).to_a
+    elsif current_user.nongds
+      @posts = Post.where(nongds: false).to_a
+    end
   end
 
   def create
     @post = current_user.posts.build(post_params)
+    @user = @post.user
+
+    if @user.sabre
+      @post.sabre = true
+    end
+    
+    if @user.nongds
+      @post.nongds = true
+    end
+
     if @post.save
       flash[:success] = "post created!"
       redirect_to posts_path
