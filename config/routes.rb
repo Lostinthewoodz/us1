@@ -30,6 +30,7 @@ Us1::Application.routes.draw do
   
   match "/getthere/about", to: "getthere_pages#about", via: 'get'
   match "/getthere/login", to: "getthere_pages#login", via: 'get'
+  match "/getthere/main", to: "getthere_pages#main", via: 'get'
 
   match "/corporate/privatejets", to: "corporate_pages#jets", via: 'get'
   match "/corporate/onlinebooking", to: "corporate_pages#booking", via: 'get'
