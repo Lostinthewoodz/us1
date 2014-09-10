@@ -3,7 +3,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -41,9 +44,13 @@
 <% elsif current_page?(contact_path)%>
     <body id="page-top" class = 'contact'>
 <% elsif current_page?(about_path)%>
-    <body id="page-top" class = 'aboutus'>
+    <body  class = 'aboutus'>
 <% elsif current_page?(root_path)%>
     <body id="page-top" class = 'intro'>
+<% elsif current_page?(resources_travelers_path)%>
+    <body id="page-top" class = 'travelresources'>
+<% elsif current_page?(getthere_main_path)%>
+    <body id="page-top" class = 'getthere'>
 <% end %>
 
 	   <%= yield %>
